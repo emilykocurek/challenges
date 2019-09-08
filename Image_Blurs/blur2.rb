@@ -10,7 +10,7 @@ class Image
     end
   end
 
-  def blur(stretch=n)
+  def blur!(stretch=n)
     stretch.times do
       blur_pixel!
     end
